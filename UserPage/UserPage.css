@@ -1,37 +1,35 @@
-#customer{
+div{
 	position: absolute;
-	background-color: blue;
-	left: 0;
 	top: 0;
-	position: absolute;
+
 	width: 50%;
 	height: 100%;
+}
+#customer{
+	left: 0;
+	
+	background-color: #2E97E5;
 }
 
 #contractor{
-	position: absolute;
-	background-color: red;
-
-	position: absolute;
 	right: 0;
-		top: 0;
-	width: 50%;
-	height: 100%;
+	
+	background-color: cornsilk;
 }
 
 #conductor{
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
 	width: 100px;
-    height: 100px;
+	height: 100px;
 	
-	background-color: gray;
-	
-    display: block;
-
-	
-    position: absolute;
-	   margin: auto;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+	background-color: ligth-blue;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border: 4px inset gray;
+	border-radius: 100%;
 }
