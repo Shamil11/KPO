@@ -1,0 +1,28 @@
+body{
+	background-color: red;
+}
+div{
+	width: 250px;
+	height: 300px;
+	margin: 150px auto;
+	padding: 50px 50px 50px 50px;
+	background-color: white;
+}
+canvas{
+	margin-left: 60px;
+	height: 170px;
+	width: 130px;
+	background-color: gray;
+}
+input{
+	display: block;
+	height: 20px;
+	width: 200px;
+	margin: 0 auto;
+}
+#nickname{
+	margin-top: 40px;
+}
+#password{
+	margin-top: 10px;
+}
